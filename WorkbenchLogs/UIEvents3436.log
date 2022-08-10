@@ -1,0 +1,32 @@
+Event log opened 7/12/2022 10:06:26 AM India Standard Time
+
+{7/12/2022 10:06:43 AM} [System.InvalidOperationException:Message] An error occurred while setting up the graphics window.
+
+Please ensure that you have the latest drivers from your graphics card manufacturer. If the error persists, you may need to decrease the graphics acceleration.
+
+For more information, please see the Troubleshooting section in the ANSYS Workbench help.
+System.IO.IOException: The disk structure is corrupted and unreadable.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at Ansys.Graphics.Utility.GraphicsConfig..cctor()
+--- System.TypeInitializationException: The type initializer for 'Ansys.Graphics.Utility.GraphicsConfig' threw an exception.
+   at Ansys.Graphics.Utility.GraphicsConfig..ctor()
+   at Ansys.Graphics.Views.ChartView..ctor(String name)
+--- Ansys.Core.Commands.UserReadableFailureException: An error occurred while setting up the graphics window.
+
+Please ensure that you have the latest drivers from your graphics card manufacturer. If the error persists, you may need to decrease the graphics acceleration.
+
+For more information, please see the Troubleshooting section in the ANSYS Workbench help.
+   at Ansys.Graphics.Views.ChartView..ctor(String name)
+--- System.InvalidOperationException: Error instantiating "Charts" [Ansys.Graphics.Views.ChartView: Ansys.UI.Views.View]: An error occurred while setting up the graphics window.
+
+Please ensure that you have the latest drivers from your graphics card manufacturer. If the error persists, you may need to decrease the graphics acceleration.
+
+For more information, please see the Troubleshooting section in the ANSYS Workbench help.
+   at Ansys.Utilities.FactoryObj`1.CreateInstance(String typeName, Object[] arguments)
+   at Ansys.UI.Workspaces.Workspace.CreateView(ViewMetaData viewData, Single priority)
+
+
+Event log closed 7/12/2022 10:53:54 AM India Standard Time

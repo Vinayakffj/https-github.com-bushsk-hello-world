@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+	email = tovas80798@chimpad.com
+	name = sakshi
+# Please adapt and uncomment the following lines:
+[safe]
+	directory = E:/

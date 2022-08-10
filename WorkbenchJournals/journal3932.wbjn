@@ -1,0 +1,8 @@
+﻿# encoding: utf-8
+SetScriptVersion(Version="15.0")
+Reset()
+template1 = GetTemplate(
+    TemplateName="Magnetostatic",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+EKM.UnregisterSession()

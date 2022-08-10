@@ -1,0 +1,4 @@
+﻿# encoding: utf-8
+SetScriptVersion(Version="15.0")
+Reset()
+EKM.UnregisterSession()
